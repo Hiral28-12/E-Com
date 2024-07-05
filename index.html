@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: lightgreen;
+            display: flex;
+            position: sticky;
+        }
+        nav ul {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        nav ul li {
+            padding: 10px 20px;
+            font-size: 30px;
+            font-weight: 600;
+            color: black;
+        }
+        button {
+            border-radius: 10px;
+            font-size: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+        }
+        .btn {
+            margin-left: 550px;
+        }
+        .banner {
+            text-align: center;
+            background-color: blanchedalmond;
+        }
+        .banner h1 {
+            font-size: 50px;
+        }
+        .banner h1 span {
+            color: red;
+        }
+        .banner h3 {
+            font-size: 35px;
+        }
+        .banner p {
+            font-size: 25px;
+            color: darkolivegreen;
+        }
+        .banner button {
+            margin-bottom: 5px;
+            background-color: cadetblue;
+        }
+    
+        .container .icon {
+            text-align: center;
+            font-size: 25px;
+        }
+        .box {
+            /* border: 3px solid red; */
+            display: flex;
+            justify-content: center;
+        }
+        .card img {
+            width: 300px;
+            border-radius: 60%;
+            padding: 20px;
+        }
+        .box h3 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .offer {
+            clear: both;
+            /* border: 10px double greenyellow; */
+            height: 800px;
+            background-image: url(./image/eCommerce-2.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            padding: 500px 0px;
+        }
+        .offer .inner_div {
+            background-color: white;
+            width: 800px;
+            border-radius: 20px;
+            margin: auto;
+            padding: 20px 30px;
+            font-size: 20px;
+        }
+        .offer .inner_div button {
+            background-color: cadetblue;
+        }
+        .iconss {
+            /* border: 2px solid red ; */
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            gap: 200px;
+        }
+        .iconss h3 {
+            font-size: 30px;
+        }
+        .iconss p {
+            font-size: 25px;
+        }
+        .futer {
+            /* border: 3px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: lightgray;
+            margin-top: 30px;
+        }
+        .shop {
+            text-align: center;
+        }
+        .shop h3 {
+            font-size: 30px;
+        }
+        .shop p {
+            font-size: 20px;
+        }
+        .shop li {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <nav>
+            <ul style="list-style-type: none;">
+                <li>Home</li>
+                <li>Pages</li>
+                <li>Shop</li>
+                <li>Elements</li>
+                <li>Blog</li>
+                <li>Contects</li>
+                <div class="btn">
+                    <button>Sign up</button>
+                    <button>Login</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- start banner -->
+    <div class="banner">
+        <h1>Up To <br><span>50%</span> Discount</h1>
+        <h3>Summer lookbook-2024</h3>
+        <p>New Modern Stylist Fashionable men's Wear Jeans Shirt.</p>
+        <button>Explore Now</button>
+    </div>
+    <!-- end banner -->
+    <!-- start container -->
+    <div class="container">
+        <div class="icon">
+            <h2>Top Category</h2>
+            <p>Follow the most popular trends and get exclusive items from castro shop</p>
+            <img src="./image/arrow-left-from-line.png" alt="">
+        </div>
+    </div>
+    <!-- end container -->
+    <!-- start box -->
+    <div class="box">
+        <div class="card">
+            <img src="./image/MenWear.webp" alt="">
+            <h3>Gents Collection</h3>
+        </div>
+        <div class="card">
+            <img src="./image/kidwear.webp" alt="">
+            <h3>Kids Collection</h3>
+        </div>
+        <div class="card">
+            <img src="./image/FootWear.webp" alt="">
+            <h3>FootWear Collection</h3>
+        </div>
+        <div class="card">
+            <img src="./image/WomenWear.webp" alt="">
+            <h3>WomenWear Collection</h3>
+        </div>
+    </div>
+    <!-- end box -->
+    <!-- start offer -->
+    <div class="offer">
+        <div class="inner_div">
+            <h2>End of Season Clearance Sale <br>up to 50%</h2>
+            <p>Welcome to the new range of shaving products from master barber.We have over three decades of experiance
+                in the male grooming industry</p>
+            <button>Shop now</button>
+        </div>
+    </div>
+    <!-- end offer  -->
+    <!-- start iconss -->
+    <div class="iconss">
+        <div>
+            <img src="./image/delivery-truck.png" alt="">
+            <h3>Free Shipping</h3>
+            <p>Free shipping on order <br> over $100</p>
+        </div>
+        <div>
+            <img src="./image/credit-card.png" alt="">
+            <h3>Secure Payment</h3>
+            <p>We ensure secure <br> payment with PEV</p>
+        </div>
+        <div>
+            <img src="./image/phone.png" alt="">
+            <h3>Support 24 Hours</h3>
+            <p>Contect us 24 hours a <br>day. 7days a week</p>
+        </div>
+        <div>
+            <img src="./image/return.png" alt="">
+            <h3>Returns</h3>
+            <p>Simply return it within 30 <br>days for and exchange.</p>
+        </div>
+    </div>
+    <!-- end iconss -->
+    <!-- start footer -->
+    <footer>
+        <div class="futer">
+            <div class="shop">
+                <img src="./image/shopping.png" alt="">
+            </div>
+            <div class="shop">
+                <ul style="list-style-type: none;">
+                    <h3>Category</h3>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>kids</li>
+                    <li>Accessories</li>
+                    <li>Shoe</li>
+                </ul>
+            </div>
+            <div class="shop">
+                <ul style="list-style-type: none;">
+                    <h3>Useful Links</h3>
+                    <li>News & Tips </li>
+                    <li>About us</li>
+                    <li>Terms & Condition</li>
+                    <li>Our Shop</li>
+                    <li>Contact us </li>
+                </ul>
+            </div>
+            <div class="shop">
+                <ul>
+                    <h3>Contect</h3>
+                    <p>470B Ruecker Wall,<br>Kassandratwon,Hl</p>
+                    <p>+(23212)2312323</p>
+                    <p>Shop@gmail.com</p>
+                    <img src="./image/facebook-app-symbol.png" alt="">
+                    <img src="./image/twitter.png" alt="">
+                    <img src="./image/google-plus.png" alt="">
+                </ul>
+            </div>
+            <div class="shop">
+                <ul>
+                    <h3>Newsletter</h3>
+                    <p>470B Ruecker Wall,Kassandratwon,<br>Hl 975544</p>
+                    <button> </button>
+                    <button>Subscribe</button>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+
+</html>
